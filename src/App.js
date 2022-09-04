@@ -6,6 +6,7 @@ import Graph from './components/graph';
 import KeyInsights from './components/keyInfo';
 import News from './components/news';
 import MostActiveStocks from './components/mostActive';
+import video from './assets/bgVideo.mp4';
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
   return (
     <>
         <video className="video-bg" autoPlay loop muted>
-          <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4" />
+          <source src={video} type="video/mp4" />
         </video>
         {/* pass handleSearch to SearchBar and call it from there while passing the selected stock to it */}
         <SearchBar handleSearch={handleSearch} handleCompany={handleCompany} />
