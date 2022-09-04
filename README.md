@@ -25,3 +25,8 @@ Once this is done, navigate to the root of the project and run the following com
 npm i
 npm start
 ```
+
+## App Demo
+
+https://user-images.githubusercontent.com/55066573/188294485-051ca5de-ea0c-4937-b485-92deec6c346f.mp4
+
